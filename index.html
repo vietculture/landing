@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>VietCulture Tour</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">VietCulture</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#package">MISSION</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#">BOOK TRIP</a></li>
+      </ul-->
+      <div class="nav__btns">
+        <button class="btn">BOOK TRIP</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>Nâng tầm cuộc chơi</p>
+          <h1>VietCulture</h1>
+          <div class="header__btns">
+            <button class="btn">Tải về ngay bây giờ!</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+       
+        <div class="header__image">
+          <img src="assets/vietnam-airline.png" alt="header" />
+        </div>
+         <div class="dynamic-island"></div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Mục tiêu hướng tới</h2>
+      <p class="section__description">
+        Đưa Vietculture thành công ty tiên phong trong lĩnh vực du lịch bền vững, 
+        kết hợp giữa việc bảo tồn văn 
+        hóa và phát triển kinh tế du lịch
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/lan-toa-van-hoa.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Lan tỏa văn hóa</h4>
+              <p> Đưa du khách khám phá giá trị văn hóa, lịch sử Việt Nam một cách sống động và hiện đại hơn.</p>
+            </div>
+            <!--div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div-->
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/3D-AR.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Tích hợp công nghệ</h4>
+              <p>Tăng cường phát triển ứng dụng với các 
+                tính năng hỗ trợ VR/AR để tạo ra trải nghiệm du 
+                lịch văn hóa trực tuyến sống động</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/thue-ao-dai.png" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Thuê cổ phục</h4>
+              <p>Vietculture cung cấp dịch vụ thuê cổ phục 
+                để du khách chụp ảnh khi tham quan 
+                các địa danh lịch sử.              </p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/cho-thue-khach-san-nha-an.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Đặt khách sạn - nhà hàng</h4>
+              <p>Vietculture tích hợp dịch vụ đặt khách 
+                sạn và nhà hàng, giúp du khách dễ dàng 
+                lên kế hoạch và trải nghiệm trọn vẹn ngay trong ứng dụng.</p>
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/le-hoi.png" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Trải nghiệm lễ hội văn hóa</h4>
+              <p>Vietculture giúp du khách cập nhật lịch 
+                trình và chi tiết các lễ hội truyền thống, từ lễ 
+                hội Chùa Hương ở Bắc, lễ hội đua voi 
+                Buôn Ma Thuột ở Trung, đến lễ hội Via Bà Chúa Xứ ở Nam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">VietCulture make it easy!</h2>
+      <p class="section__description">
+        Effortless Planning for Your Next Adventure
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Thay đổi lịch trình</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Tùy chọn đặt chỗ linh hoạt</h4>
+            <p>
+              Kế hoạch thay đổi bất ngờ? Đừng lo!<b>>Đổi lịch</b> hoặc <b>Hoàn tiền</b> dễ dàng.
+
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Chuyến đi độc nhất</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Lịch trình được thiết kế cho riêng bạn</h4>
+            <p>
+              Tận hưởng kế hoạch du lịch cá nhân 
+              hóa phù hợp với sở thích của bạn, đảm bảo chuyến 
+              đi độc đáo, dù là phiêu lưu hay trải nghiệm văn hóa.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Hướng dẫn viên chuyên nghiệp</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Hướng dẫn viên đến từ chính địa điểm du lịch</h4>
+            <p>
+              Du khách có cơ hội tiếp cận dịch vụ hướng dẫn 
+              viên chuyên nghiệp, giúp họ hiểu sâu về lịch sử, 
+              văn hóa và phong tục địa phương, mang lại 
+              chuyến đi đáng nhớ và giá trị.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="assets/travel-plans.png" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>SỨ MỆNH CỦA VIETCULTURE</h4>
+        <p>
+         
+Sứ mệnh của công ty VietCulture là khai thác và 
+quảng bá giá trị văn hóa, lịch sử, cũng như cảnh 
+quan du lịch độc đáo của Việt Nam đến đông đảo du 
+khách trong và ngoài nước. Chúng tôi hướng đến việc
+ kết hợp hài hòa giữa những giá trị văn hóa cổ kính 
+ lâu đời và nét hiện đại, giúp du khách không chỉ khám phá vẻ đẹp 
+của những di sản văn hóa mà còn trải nghiệm sự sống động của nền văn hóa hiện đại.
+        </p>
+        <p>
+          Với tầm nhìn đó, VietCulture cam kết phát triển một nền 
+          tảng công nghệ tiên tiến, hỗ trợ du lịch thông minh và mang 
+          đến trải nghiệm văn hóa phong phú cho người dùng. Ứng dụng của 
+          chúng tôi không chỉ giúp du khách dễ dàng tìm hiểu về lịch sử và 
+          văn hóa của các địa danh, mà còn cung cấp 
+          thông tin chi tiết về các sự kiện, lễ hội, và hoạt động văn hóa đặc sắc.
+        </p>
+        <p>Chúng tôi tạo ra các hành trình du lịch được cá nhân 
+          hóa, kết nối du khách với các dịch vụ hướng dẫn viên 
+          chuyên nghiệp và những người dân địa phương, từ đó mang 
+          lại cái nhìn sâu sắc hơn về cuộc sống và phong tục tập quán 
+          ở từng vùng miền. VietCulture không chỉ là một công cụ du lịch,
+           mà còn là cầu nối giúp du khách trải nghiệm và 
+          cảm nhận vẻ đẹp văn hóa của Việt Nam một cách trọn vẹn nhất.</p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Tải VietCulture ngay!
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>10+</h4>
+        <p>Năm kinh nghiệm</p>
+      </div>
+      <div class="banner__card">
+        <h4>12K</h4>
+        <p>Khách hàng</p>
+      </div>
+      <div class="banner__card">
+        <h4>4.8</h4>
+        <p>Đánh giá</p>
+      </div>
+    </section>
+
+    <section class="section__container discover__container">
+      <h2 class="section__header">Khám Phá Việt Nam Bằng Công Nghệ</h2>
+      <p class="section__description">
+        Trải Nghiệm Những Khung Cảnh Hùng Vĩ với Góc Nhìn Độc Đáo
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-camera-lens-line"></i></span>
+          <h4>Cảnh Quan Thành Phố Trên Cao</h4>
+          <p>
+            Ngắm nhìn vẻ đẹp kiến trúc và nhịp sống sôi động từ góc 
+            nhìn trên cao bằng kính thực tế ảo, mang đến một trải nghiệm độc đáo.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-ship-line"></i></span>
+          <h4>Vẻ Đẹp Đại Dương</h4>
+          <p>
+            Khám phá những bí ẩn của đại dương thông qua kính thực tế ảo và 
+            thực tế tăng cường, mang lại trải nghiệm sống động như thật.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-landscape-line"></i></span>
+          <h4>Các Di Tích Lịch Sử</h4>
+          <p>
+            Quan sát sự hùng vĩ của những di tích cổ và các địa điểm 
+            quan trọng theo cách mà các tour du lịch truyền thống không thể mang lại.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="section__container client__container">
+      <h2 class="section__header">Được tin chọn bởi hàng vạn tín đồ du lịch</h2>
+      <p class="section__description">
+        Khám phá những câu chuyện về niềm đam mê 
+        du lịch và những kỷ niệm quý giá qua 
+        góc nhìn của các khách hàng thân thiết của chúng tôi.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  VietCulture thực sự là một ứng dụng tuyệt vời cho 
+                  những ai yêu thích khám phá văn hóa Việt Nam. Giao 
+                  diện thân thiện và dễ sử dụng, giúp tôi nhanh chóng 
+                  tìm hiểu về các địa điểm lịch sử và lễ hội truyền thống. 
+                  Tôi rất thích tính năng đặt cổ phục để trải nghiệm chụp ảnh tại các địa danh.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>J98</h4>
+                  <h5>Ca Sĩ</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Tôi đã sử dụng VietCulture trong chuyến đi gần đây và rất 
+                  ấn tượng với sự phong phú của thông tin mà ứng dụng cung cấp. 
+                  Từ hướng dẫn viên chuyên nghiệp đến các hoạt động văn hóa, 
+                  mọi thứ đều rất chi tiết. Ứng dụng giúp tôi có một trải nghiệm du lịch sâu sắc hơn.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div>
+                  <h4>Nguyễn Thị Hương Giang</h4>
+                  <h5>Người đam mê du lịch</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Tính năng cá nhân hóa kế hoạch du lịch là điểm cộng lớn 
+                  của VietCulture. Tôi có thể dễ dàng chọn lựa các hoạt động 
+                  và địa điểm phù hợp với sở thích của mình. 
+                  Tuy nhiên, tôi hy vọng ứng dụng có thể cập nhật thêm nhiều 
+                  thông tin hơn về các lễ hội.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div>
+                  <h4>Lê Thúy Lành</h4>
+                  <h5>Blogger</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  VietCulture đã làm cho chuyến đi của tôi trở nên thú vị
+                   và ý nghĩa hơn. Ứng dụng không chỉ cung cấp thông tin 
+                   mà còn tạo cơ hội kết nối với người dân địa phương. Mặc dù
+                    một số tính năng cần cải thiện, nhưng tổng thể, 
+                  đây là một ứng dụng không thể thiếu cho những ai muốn khám phá văn hóa Việt Nam
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="client" />
+                <div>
+                  <h4>Phạm Vi Dung</h4>
+                  <h5>KOL</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">VietCulture</a>
+          </div>
+          <p>
+         
+Khám phá thế giới một cách dễ 
+dàng và thú vị qua nền tảng du lịch 
+toàn diện của chúng tôi. Chuyến đi của 
+bạn bắt đầu tại đây, nơi mà 
+việc lập kế hoạch liền mạch gặp gỡ những trải nghiệm khó quên.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!--div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Cruise</a></li>
+          </ul>
+        </div-->
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +84 9868757657
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> vietculture@app.vn
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Quận 8, TP.HCM
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
